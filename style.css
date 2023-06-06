@@ -154,6 +154,13 @@ h3 {
     padding: 1em;
 }
 
+.setting svg {
+    position: relative;
+    right: -7.5em;
+    padding: .5em;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
 /* Section 2 */
 .seccion-2 {
     background-color: #ffffff;
