@@ -545,7 +545,7 @@ footer svg {
 }
 
 .footer h2 {
-    color:#e2e2e4;
+    color: #e2e2e4;
 }
 
 .footer-perfil h2 {
@@ -554,9 +554,9 @@ footer svg {
 
 .footer-perfil svg {
     background-color: #212129;
-} 
+}
 
-.footer-perfil div{
+.footer-perfil div {
     display: flex;
     align-items: center;
 }
@@ -565,14 +565,14 @@ footer svg {
     padding-top: 1em;
 }
 
-.news p{
+.news p {
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
 .contacto svg {
     background-color: #212129;
-} 
+}
 
 .contacto div {
     display: flex;
@@ -581,7 +581,7 @@ footer svg {
 
 .contacto a {
     padding-top: 1em;
-} 
+}
 
 /* firma */
 .firma {
@@ -595,4 +595,14 @@ footer svg {
 .firma span {
     margin-left: 5px;
     color: #e5383a;
+}
+
+
+@media (max-width: 1023px) {
+
+}
+
+
+@media (max-width: 768px) {
+    
 }
