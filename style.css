@@ -112,18 +112,23 @@ h3 {
     margin-top: 6em;
 }
 
-.contenedor-texto svg {
+
+
+.icon-button {
     display: flex;
-    position: absolute;
-    top: 63.7%;
-    right: 42.5%;
+    align-items: center;
+}
+
+.icon-button span {
+    margin-left: -2em;
+}
+
+.icon-button svg {
+    margin-top: -2.2em;
+    margin-right: -3em;
     transform: rotate(-43deg);
 }
 
-.contenedor-texto svg:hover {
-    top: 63.7%;
-    right: 42.5%;
-}
 
 .contenedor-texto h1 {
     padding-bottom: .5em;
@@ -140,9 +145,7 @@ h3 {
 
 .seccion-1 img {
     width: 25em;
-    /* Ajusta el tamaño de la imagen según tus necesidades */
     margin-left: -3em;
-    /* Ajusta el valor según tus necesidades */
 }
 
 .contenedor-imagen {
@@ -248,13 +251,18 @@ h3 {
     padding: 1em;
 }
 
-.contenedor-main_service svg {
-    display: flex;
-    position: absolute;
-    top: 169%;
-    right: 31.7%;
+
+.seccion-2 .text {
+    color: #ffffff;
+    padding-left: 2.5em;
+}
+
+.seccion-2 .icon-button svg {
+    margin-top: -2em;
+    margin-right: -1em;
     transform: rotate(-43deg);
 }
+
 
 .container {
     display: flex;
@@ -314,6 +322,17 @@ h3 {
 
 .seccion-3 span {
     color: #b73631;
+}
+
+.seccion-3 .text {
+    color: #ffffff;
+    padding-left: 2.5em;
+}
+
+.seccion-3 .icon-button svg {
+    margin-top: 21em;
+    margin-right: 1em;
+    transform: rotate(-43deg);
 }
 
 .seccion-3 .contenedor-imagen {
@@ -410,17 +429,11 @@ h3 {
     padding-right: 2em;
 }
 
-.descripcion-proyectos .bi-arrow-right {
-    position: absolute;
-    top: 322.5%;
+.seccion-4 .text {
+    color: #ffffff;
+    padding-left: 2.5em;
 }
 
-.descripcion-proyectos .bi-caret-right-fill {
-    position: absolute;
-    top: 318.8%;
-    right: 10%;
-    transform: rotate(-43deg);
-}
 
 /* Seccion 5 */
 
@@ -508,6 +521,14 @@ footer {
     padding: 10% 10% 5% 10%;
 }
 
+footer button {
+    padding: 1em;
+}
+
+footer input {
+    padding: 1em;
+}
+
 footer svg {
     color: #ffffff;
     padding: .5em;
@@ -516,7 +537,44 @@ footer svg {
     margin-top: 1em;
 }
 
+.footer h2 {
+    color:#e2e2e4;
+}
 
+.footer-perfil h2 {
+    padding-left: .2em;
+}
+
+.footer-perfil svg {
+    background-color: #212129;
+} 
+
+.footer-perfil div{
+    display: flex;
+    align-items: center;
+}
+
+.footer-perfil a {
+    padding-top: 1em;
+}
+
+.news p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.contacto svg {
+    background-color: #212129;
+} 
+
+.contacto div {
+    display: flex;
+    padding-top: 1em;
+}
+
+.contacto a {
+    padding-top: 1em;
+} 
 
 /* firma */
 .firma {
